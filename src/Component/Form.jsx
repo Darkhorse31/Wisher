@@ -3,16 +3,16 @@ import "./Form.css";
 function Form() {
   return (
     <form action="">
-      <div>
+      <div className="divison">
         <label htmlFor="">Enter Your name</label>
         <input></input>
       </div>
-      <div>
+      <div className="divison">
         <label htmlFor="">Wish Reciver name</label>
         <input></input>
       </div>
-      <div>
-        <label htmlFor="">Enter Your name</label>
+      <div className="divison">
+        <label htmlFor="">Relationship</label>
         <select name="cars" id="cars">
           <option value="Mother">Mother</option>
           <option value="Father">Father</option>
@@ -21,6 +21,7 @@ function Form() {
           <option value="Friend">Friend</option>
         </select>
       </div>
+      <button>Generate Card For Me</button>
     </form>
   );
 }

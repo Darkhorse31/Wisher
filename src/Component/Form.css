@@ -1,0 +1,22 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divison {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.divison > label {
+  font-size: clamp(1rem, 3vw, 2.8rem);
+  font-weight: normal;
+  color: white;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.divison > input {
+  flex: 1;
+  padding: 0.5rem 0rem;
+}
