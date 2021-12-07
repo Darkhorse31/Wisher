@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --bgColor-: #0b0c10;
+  --textColor-: #da7b93;
+  --shadow1-: #2e151b;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: var(--bgColor-);
+  align-items: center;
+}
+svg {
+  margin-bottom: 3rem;
+}
+text {
+  font-size: 3rem;
+  font-weight: bold;
+  filter: drop-shadow(1px 3px 5px #c602c9);
+}
+text:hover {
+  filter: saturate(300%);
+  text-shadow: 2px 2px 5px #c602c9;
+  transition: 0.5s;
+}
